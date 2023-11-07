@@ -1,6 +1,6 @@
 .card {
-  min-width: 200px;
-  min-height: 200px;
+  min-width: 250px;
+  min-height: 250px;
   margin: 10px;
   background-color: #f8f8ff;
   border-radius: 10px;
@@ -12,13 +12,13 @@
 }
 
 .card-img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
 .card-name {
   color: #e73959;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: 500;
   margin-bottom: 1px;
 }
@@ -29,13 +29,14 @@
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 1px;
+  align-self: flex-start;
 }
 
 .count-img {
-  height: 8px;
-  width: 8px;
+  height: 20px;
+  width: 20px;
 }
 
 .count-para {
-  font-size: 8px;
+  font-size: 20px;
 }
